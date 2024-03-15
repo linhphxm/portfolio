@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Personal Portfolio Website</title>
+    <link rel='stylesheet' href='style.css' type='text/css'>
+    <script src="https://kit.fontawesome.com/1930ede164.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Employment History</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <h1 class="bouncing-letters">
+                <span>H</span><span>i</span><span>,</span>
+                <span>I</span><span>'</span><span>m</span>
+                <span style="color: #9f53ce;">L</span><span style="color: #9f53ce;">i</span><span style="color: #9f53ce;">n</span><span style="color: #9f53ce;">h</span>
+                <span>P</span><span>h</span><span>a</span><span>m</span>
+            </h1>
+            <p class="bouncing-letters">
+                <span>C</span><span>o</span><span>m</span><span>m</span><span>e</span><span>r</span><span>c</span><span>e</span>
+                <span>S</span><span>t</span><span>u</span><span>d</span><span>e</span><span>n</span><span>t</span>
+            </p>
+
+
+        </div>
+    </div>
+</div>
+<!-------------about------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/headshot.png" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Motivated and analytical-minded Commerce student majoring in Business Analytics 
+                    and minoring in Finance. Committed, with a keen interest in applying analytical skills to aid in the insights of strategic business decisions. 
+                    Seeking an internship that will challenge my abilities and allow me to expand my expertise in a real-world business environment.  
+                     </p>
+
+                    <div class="tab-titles active-tab">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('certifications')">Certifications</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Excel </span> Proficient</li>
+                            <li><span>R Language </span> Intermediate</li>
+                            <li><span>Tableau </span> Proficient</li>
+                            <li><span>HTML </span> Intermediate</li>
+                            <li><span>CSS </span> Intermediate</li>
+                            <li><span>Vega-Lite </span> Beginner</li>
+                            <li><span>Python </span> Beginner</li>
+                            <li><span>Data Analysis </span> Beginner</li>
+                            <li><span>Problem-Solving </span> Proficient</li>
+                            <li><span>Billingual </span> Vietnamese</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022 - 2025</span><br>Bachelor of Commerce<br>Monash 
+                                University<br>WAM: 78.267 | GPA: 3.455<br>Major: Business 
+                                Analytics | Minor: Finance <br>
+                                <span>Completed Business Analytics/ Finance Units:</span> <br>
+                                Introduction to data analysis | Business and Economic Statistics | Data Visualisation | Corporate Finance | Introduction to Programming (Python) | Principles of microeconomics
+                        
+                            </li>
+                            <li><span>2016 - 2021</span><br>Victorian Certificate of Education<br>
+                                Ave Maria College</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="certifications">
+                        <ul>
+                            <li><span>2019 - 2020</span><br>VET Allied Health III Certificate</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>    
+<!---------services-------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Employment History</h1>
+        <div class="services-list">
+            <div>
+                <h3> Hospitality Food Worker | Rice Workshop</h3>
+                <span>2020 - present</span>
+                <ul>
+                    <li> Provided high-quality customer experience by managing order fulfillment with attentive service</li>
+                    <li> Developed a welcoming environment through proactive problem-solving and positive customer engagement</li>
+                    <li> Working collaboratively with team members to enhance workflow</li>
+                </ul>
+
+                <br>
+                    <h3>Food and Beverage Attendant | Crown </h3>
+                    <span>2022 - 2023</span> 
+                    <ul>
+                        <li> Thrived in a fast-paced environment, consistently meeting demands in a timely matter</li>
+                        <li> Multitasked whilst prioritizing tasks for optimal efficiency</li>
+                    </ul>
+
+                <br>
+                <h3>Medical Receptionist | Sia Medical Centre</h3>
+                <span>2022</span>
+                <ul>
+                    <li> Utilized problem solving skills to resolve patient issues effectively under high-pressure situations</li>
+                    <li> Completed administrative work such as maintaining data and records, booking appointments, and coordinating
+                        healthcare services to enhance patient care continuity</li>
+                </ul>
+
+                <br>
+                <h3>Entertainment Host | Happy Place </h3>
+                <span>2021 - 2022</span>
+                <ul>
+                    <li> Developed strong customer engagement by delivering information attentively and ensuring interactive
+                        participation</li>
+                    <li> Managed large crowds through the allocation and utilization of skills with team members</li>
+                </ul>
+
+                <br>
+                <h3>Retail Assistant | Sweet Box</h3>
+                <span>2020</span>
+                <ul>
+                    <li> Achieved sales goals through strategic customer engagement and product knowledge</li>
+                    <li> Assisted in inventory management of merchandise</li>
+                </ul>
+
+                <br>
+                <h3>Dental Clinic Worker (Work Experience) | Footscray Family Dental</h3>
+                <span>2019-2020</span>
+                <ul>
+                    <li> Utilised organisation skills to maintain cleanliness and order in the clinic, enhancing staff productivity</li>
+                    <li> Managed comprehensive administrative tasks, ensuring accurate completion of paperwork and patient record
+                        maintenance</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-----------projects---------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/tableau.png">
+                <div class="layer">
+                    <h3>Tableau Project</h3>
+                    <p>This is a data visualisation project made 
+                        to help others choose what country to move to.</p>
+                    <a href="https://public.tableau.com/app/profile/linh.pham1362/viz/FIT3179Visualisation1_16937157104250/DashboardV1" target="_blank">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/vega.png">
+                <div class="layer">
+                    <h3>Vega-Lite Project</h3>
+                    <p>This data visualisation explores Australian Crime. HTML, CSS, and 
+                        JavaScript were used to implement this.
+                    </p>
+                    <a href="https://linhphxm.github.io/3179/V2/index.html" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<!--------contact-------->>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>linhkpham25@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>0478655455</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/linh-pham-046385209/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/linhphxm" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="images/resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="text" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxcHBKcBceIIwcWxk4ss3o2-Z9rna-jQWHFKaKn2c_z1lKLkWfvbQZOGxw8cubtKILdZQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+<script>
+    document.querySelectorAll(".bouncing-letters>span").forEach((element) => {
+    element.addEventListener("mouseover", (e) => bounce(e.target));
+});
+
+function bounce(letter) {
+    if (!letter.classList.contains("bounce")) {
+        letter.classList.add("bounce");
+        setTimeout(
+            function () {
+                letter.classList.remove("bounce");
+            },
+            1000
+        );
+    }
+}
+</script>
+
+</body>
+</html>
+
+
